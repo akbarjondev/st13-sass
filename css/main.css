@@ -4,6 +4,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -13,6 +14,14 @@ html {
 
 body {
   font-family: "Barlow", "Arial", sans-serif;
+}
+
+::-moz-selection {
+  background-color: cyan;
+}
+
+::selection {
+  background-color: cyan;
 }
 
 .container {
@@ -71,5 +80,49 @@ a {
 
 .nav__link:hover {
   color: #202020;
+}
+
+.hero {
+  padding: 117px 85px;
+  border-radius: 10px;
+  background-image: url("./../image/bg-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__wrapper {
+  max-width: 495px;
+}
+
+.hero__heading {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.hero__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+  margin: 0;
+  margin-bottom: 56px;
+}
+
+.hero__link {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  display: block;
+  max-width: 217px;
+  padding: 16px 31px;
+  background-color: #0e8784;
+  border-radius: 6px;
+  color: #fefcf7;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
