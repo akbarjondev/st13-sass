@@ -1,0 +1,42 @@
+:root {
+  --main-color: yellow;
+}
+
+body {
+  color: var(--main-color)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table td {
+  background-color: var(--main-color);
+}
